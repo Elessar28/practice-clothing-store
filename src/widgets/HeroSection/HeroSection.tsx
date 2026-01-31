@@ -9,7 +9,7 @@ export default function HeroSection() {
     return (
         <div className={styles.section}>
             <div className={styles.left}>
-                <h1 className={styles.sectionTitle}>Take Care<br /> of You</h1>
+                <h1 className={styles.sectionTitle}>Take <br /> Care <br /> of You</h1>
                 <p className={styles.sectionSubtitle}>Meet the modern finance platform created for physicians,<br /> by physicians. Your path to financial independence is here.</p>
                 <Button size='lg' variant='filled'>Join the Waitlist</Button>
             </div>
@@ -19,7 +19,7 @@ export default function HeroSection() {
                     <ImageCard
                         imageSrc={heroDoctorImage}
                         altText='A doctor with a stethoscope'
-                        imageWidth={'25em'}
+                        imageWidth={'24em'}
 
                     />
                 </div>
@@ -27,7 +27,7 @@ export default function HeroSection() {
                     <ImageCard
                         imageSrc={heroPeopleImage}
                         altText='A couple of people are reading from phone.'
-                        imageWidth={'22em'}
+                        imageWidth={'21em'}
                     />
                 </div>
             </div>

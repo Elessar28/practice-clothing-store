@@ -8,14 +8,14 @@
     height: 100px;
     background-color: #F2F4EA;
     color: #1F4D36;
-    font-size: 18px;
+    font-size: 20px;
     align-items: center;
     justify-content: space-around;
 }
 
 .navbar a {
     color: #1F4D36;
-    margin-right: 3em;
+    margin-right: 2.5em;
     border-bottom: transparent 2px solid;
     transition: all 0.5s ease;
 }
@@ -36,5 +36,5 @@
 .right {
     grid-column: 3;
     justify-self: end;
-    margin-right: 5em;
+    margin-right: 4em;
 }

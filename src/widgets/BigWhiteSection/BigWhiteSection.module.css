@@ -1,0 +1,15 @@
+.section {
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.sectionTitle {
+    color: #1F4D36;
+    font-size: 5em;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0.4em;
+}

@@ -1,0 +1,16 @@
+.label {
+    font-size: 18px;
+    font-weight: 400;
+    color: #1F4D36;
+    background-color: #F1EABA;
+    border-radius: 4px;
+    padding-inline: 0.8em;
+    padding-block: 0.5em;
+    margin-top: 10em;
+    transition: all 0.5s ease;
+}
+
+.label:hover {
+    transform: scale(1.1);
+    box-shadow: #e2dcb2 5px 5px 10px;
+}
