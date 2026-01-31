@@ -1,5 +1,5 @@
 import styles from './NavBar.module.css';
-import TransparentButton from '../../shared/TransparentButton/TransparentButton';
+import Button from '../../shared/Button/Button';
 
 
 export default function NavBar() {
@@ -11,7 +11,7 @@ export default function NavBar() {
                 <a href="">Our Mission</a>
             </nav>
             <div className={styles.right}>
-                <TransparentButton size="md">Join the Waitlist</TransparentButton>
+                <Button size="md" variant="transparent">Join the Waitlist</Button>
             </div>
         </div>
     );

@@ -1,6 +1,4 @@
 .button {
-    background-color: transparent;
-    color: #1F4D36;
     border: 2px solid #1F4D36;
     border-radius: 100px;
     cursor: pointer;
@@ -9,11 +7,6 @@
     font-family: 'Roboto', sans-serif;
 
     transition: all 0.5s ease;
-}
-
-.button:hover {
-    background-color: #1F4D36;
-    color: #F2F4EA;
 }
 
 .sm {
@@ -29,7 +22,27 @@
 }
 
 .lg {
-    font-size: 1.2em;
-    padding-block: 1.2em;
-    padding-inline: 3.2em;
+    font-size: 1em;
+    padding-block: 0.8em;
+    padding-inline: 4em;
+}
+
+.filled {
+    background-color: #1F4D36;
+    color: #F2F4EA;
+}
+
+.filled:hover {
+    background-color: transparent;
+    color: #1F4D36;
+}
+
+.transparent {
+    background-color: transparent;
+    color: #1F4D36;
+}
+
+.transparent:hover {
+    background-color: #1F4D36;
+    color: #F2F4EA;
 }
