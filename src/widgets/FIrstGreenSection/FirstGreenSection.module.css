@@ -1,0 +1,38 @@
+.section {
+    font-size: 18px;
+    color: #F2F4EA;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7em;
+
+    background: linear-gradient(
+        180deg,
+        #1F4D36 0%,
+        #1F4D36 87%,
+        #FFFFFF 73%,
+        #FFFFFF 100%
+    );
+}
+
+.sectionTitle {
+    font-size: 4em;
+    font-weight: 400;
+    margin-bottom: 1em;
+    text-align: center;
+    line-height: 1em;
+}
+
+.sectionText {
+    text-align: center;
+    margin-bottom: 10em;
+    line-height: 1.5em;
+    width: 37%;
+    font-weight: 400;
+    
+}
+
+.sectionImage {
+    width: 60%;
+}

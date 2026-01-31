@@ -7,10 +7,10 @@ import heroPeopleImage from '../../app/images/hero-people-image.png';
 
 export default function HeroSection() {
     return (
-        <div className={styles.heroSection}>
+        <div className={styles.section}>
             <div className={styles.left}>
-                <h1>Take Care<br /> of You</h1>
-                <p>Meet the modern finance platform created for physicians,<br /> by physicians. Your path to financial independence is here.</p>
+                <h1 className={styles.sectionTitle}>Take Care<br /> of You</h1>
+                <p className={styles.sectionSubtitle}>Meet the modern finance platform created for physicians,<br /> by physicians. Your path to financial independence is here.</p>
                 <Button size='lg' variant='filled'>Join the Waitlist</Button>
             </div>
 
@@ -20,6 +20,7 @@ export default function HeroSection() {
                         imageSrc={heroDoctorImage}
                         altText='A doctor with a stethoscope'
                         imageWidth={'25em'}
+
                     />
                 </div>
                 <div className={styles.overlayImage}>
