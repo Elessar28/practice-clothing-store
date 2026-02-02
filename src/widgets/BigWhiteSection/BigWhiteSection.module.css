@@ -4,6 +4,7 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    padding-top: 10em;
     margin-bottom: 3em;
 }
 
