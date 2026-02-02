@@ -6,7 +6,10 @@
     width: max-content;
     font-family: 'Roboto', sans-serif;
 
-    transition: all 0.5s ease;
+    transition: 
+        transform 0.3s ease, 
+        color 0.5s ease,
+        background-color 0.5s ease;
 }
 
 .sm {
@@ -45,4 +48,8 @@
 .transparent:hover {
     background-color: #1F4D36;
     color: #F2F4EA;
+}
+
+.button:active {
+    transform: scale(0.95);
 }

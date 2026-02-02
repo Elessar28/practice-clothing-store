@@ -24,6 +24,10 @@
     border-bottom: #1F4D36 2px solid;
 }
 
+.navbar a:active {
+    transform: scale(0.95);
+}
+
 .center {
     grid-column: 2;
     justify-self: center;

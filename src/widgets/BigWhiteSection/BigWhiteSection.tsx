@@ -2,6 +2,7 @@ import style from './BigWhiteSection.module.css';
 import Label from '../../shared/Label/Label';
 import ImageCard from '../../shared/ImageCard/ImageCard';
 import RoundButton from '../../shared/RoundButton/RoundButton';
+import Button from '../../shared/Button/Button';
 
 import greenPhoneImage from '../../app/images/green-phone-image.png'
 
@@ -20,7 +21,27 @@ export default function BigWhiteSection() {
                         A Financial Solutions <br />
                         Platform that is...
                     </h3>
-                    <RoundButton>+</RoundButton>
+                    <ul className={style.sectionList}>
+                        <li>
+                            <h4>Tailored</h4>
+                            <div className={style.buttonContainer}><RoundButton>+</RoundButton></div>
+                            <div className={style.separator}></div>
+                            <p>Only for physicians — because there's no financial journey quite like yours.</p>
+                        </li>
+                        <li>
+                            <h4>Empowering</h4>
+                            <div className={style.buttonContainer}><RoundButton>+</RoundButton></div>
+                            <div className={style.separator}></div>
+                            <p>The actionable information you need to make smarter financial decisions.</p>
+                        </li>
+                        <li>
+                            <h4>Convenient</h4>
+                            <div className={style.buttonContainer}><RoundButton>+</RoundButton></div>
+                            <div className={style.separator}></div>
+                            <p>Always-on digital solution that fits in seamlessly with your always-on lifestyle.</p>
+                        </li>
+                    </ul>
+                    <Button size={"md"} variant={"transparent"}>Learn More</Button>
                 </div>
                 <div className={style.rightColumn}>
                     <ImageCard 

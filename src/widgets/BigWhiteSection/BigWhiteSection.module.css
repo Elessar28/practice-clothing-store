@@ -4,6 +4,7 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    margin-bottom: 3em;
 }
 
 .sectionTitle {
@@ -25,10 +26,10 @@
 
 .sectionContent {
     display: grid;
-    grid-template-columns: 65% 35%;
+    grid-template-columns: 56% 44%;
     width: 55%;
     margin-top: 4em;
-    
+    gap: 2em;
 }
 
 .leftColumn {
@@ -43,8 +44,54 @@
     font-size: 2.6em;
     font-weight: 400;
     line-height: 1.1em;
+    margin-top: 0.5em;
 }
 
 .rightColumn {
     grid-column: 2;
+    max-width: 400px;
+    align-self: center;
+}
+
+.sectionList {
+    margin-top: 1em;
+    list-style-type: none;
+    line-height: 1.5em;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.sectionList li {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 50% auto auto;
+    margin-bottom: 1.5em;
+
+}
+
+.sectionList h4 {
+    font-weight: 400;
+    font-size: 1.5em;
+    grid-column: 1;
+    margin-top: 0.5em;
+}
+
+.sectionList p {
+    font-size: 1em;
+    margin-top: 0.5em;
+    line-height: 1.3em;
+    grid-column: 1 / span 1;
+}
+
+.buttonContainer {
+    grid-column: 2;
+    justify-self: end;
+}
+
+.separator {
+    background-color: #F2F4EA;
+    height: 4px;
+    grid-column: 1 / span 2;
+    border-top: 1px solid #1F4D36;
+    margin-top: 0.5em;
 }

@@ -1,15 +1,16 @@
-// import styles from './ImageCard.module.css'
+import styles from './ImageCard.module.css'
 
 type ImageCardProps = {
     imageSrc: string;
     altText: string;
     imageWidth: string;
+    variant?: "notFramed" | "framed";
 }
 
-export default function ImageCard({ imageSrc, altText, imageWidth }: ImageCardProps) {
+export default function ImageCard({ imageSrc, altText, imageWidth, variant = "notFramed" }: ImageCardProps) {
     return (
-        <div>
-            <img src={imageSrc} alt={altText} style={{ width: imageWidth }} />
+        <div className={`${styles[variant]}`}>
+            <img src={imageSrc} alt={altText} style={{ width: imageWidth }}  />
         </div>
     );
 }
