@@ -12,10 +12,15 @@
         background-color 0.5s ease;
 }
 
+.button:active {
+    transform: scale(0.95);
+}
+
 .sm {
-    font-size: 0.8em;
+    font-size: 1em;
     padding-block: 0.4em;
-    padding-inline: 1.6em;
+    padding-inline: 1.2em;
+    border: 1px solid #1F4D36;
 }
 
 .md {
@@ -50,6 +55,20 @@
     color: #F2F4EA;
 }
 
-.button:active {
-    transform: scale(0.95);
+.pressed {
+    background-color: #1F4D36;
+    color: #F2F4EA;
+    transition: 
+        transform 0.3s ease,
+        background-color 0.3s ease;
 }
+
+.not-pressed {
+    background-color: transparent;
+    color: #1F4D36;
+    transition: 
+        transform 0.3s ease,
+        background-color 0.3s ease;
+}
+
+

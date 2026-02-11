@@ -2,15 +2,16 @@ import styles from './Button.module.css';
 
 type ButtonProps = {
     size?: "sm" | "md" | "lg";
-    variant?: "filled" | "transparent";
+    variant?: "filled" | "transparent" | "pressed" | "not-pressed";
+    onClick?: () => void;
     children?: React.ReactNode;
 }
 
 
-export default function Button({ size = "md", variant = "filled", children }: ButtonProps) {
+export default function Button({ size = "md", variant = "filled", onClick, children }: ButtonProps) {
 
     return (
-        <button className={`${styles.button} ${styles[size]} ${styles[variant]}`}>
+        <button onClick={onClick} className={`${styles.button} ${styles[size]} ${styles[variant]}`}>
             {children}
         </button>
     );

@@ -4,6 +4,7 @@ import FirstGreenSection from "../widgets/FIrstGreenSection/FirstGreenSection";
 import BigWhiteSection from "../widgets/BigWhiteSection/BigWhiteSection";
 import SecondGreenSection from "../widgets/SecondGreenSection/SecondGreenSection";
 import SmallWhiteSection from "../widgets/SmallWhiteSection/SmallWhiteSection";
+import WaitlistSection from "../widgets/WaitlistSection/WaitlistSection";
 
 export default function MainPage() {
     return (
@@ -14,6 +15,7 @@ export default function MainPage() {
             <BigWhiteSection />
             <SecondGreenSection />
             <SmallWhiteSection />
+            <WaitlistSection />
         </div>
     );
 }
